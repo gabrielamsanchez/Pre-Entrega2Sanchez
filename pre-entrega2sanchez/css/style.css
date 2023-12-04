@@ -10,6 +10,8 @@ body{
 }
 
 /*barra nav*/
+
+
 body header nav div.barra {
 
 text-decoration: none;
@@ -20,25 +22,8 @@ padding: 20px;
 justify-content: left;
 }
 
-.container-sm
-{
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    padding: 5px;
-    max-width: 300px;
-    height: auto;
-}
 
-header nav a:hover{
-color: #E6BDF0;
-}
 
-p .envio {
-width: auto;
-height: 52 px;
-flex-wrap: wrap;
-}
 
 header p{
 display: center;
@@ -48,18 +33,49 @@ text-align: center;
 padding: 10px;
 }
 
-/*logo*/
-nav div img {
-display: center;
-padding: 5px 400px;
+/*iconos de barra*/
+header .icons a{
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.911);
+    padding: 10px;
+    margin-left: 0.5rem;
+    justify-content: right;
+    align-items: right;
+    
+}
 
+header .icons a:hover{
+color: #E6BDF0;
+}
+
+/*whatsapp fijo*/
+.btn-wsp{ 
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+
+.fondito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 /*productos destacados*/
-  h1{
-        text-align: center;
-        margin: 10px;
-        padding: 30px;
+.prod-destacados{
+    display: flex;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 10px;
+        padding: 10px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
     }
 
 /*Aplicamos estilos al main*/
@@ -73,6 +89,7 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 
 /*Aplicamos estilos de ancho a las card*/
 
@@ -104,6 +121,7 @@ main div h3{
 
 }
 
+/*pie de pagina*/
 footer p {
     color: #419B70;
     font-size: 20px;
@@ -127,6 +145,7 @@ footer .redes a{
 
 }
 
+
 footer .copy{
     color: black ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -135,3 +154,5 @@ footer .copy{
 
    
 }
+
+
